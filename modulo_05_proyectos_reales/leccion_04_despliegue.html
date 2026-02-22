@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Despliegue - <tema></title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Segoe UI', system-ui, sans-serif; background: linear-gradient(160deg, #1a1a2e 0%%, #16213e 100%%); color: #eee; min-height: 100vh; padding: 2rem; line-height: 1.6; }
+    .wrap { max-width: 800px; margin: 0 auto; }
+    h1 { font-size: 1.8rem; margin-bottom: 0.5rem; }
+    .sub { opacity: 0.9; margin-bottom: 1.5rem; font-size: 0.95rem; }
+    h2 { font-size: 1.2rem; margin: 1.25rem 0 0.5rem; color: #4fc3f7; }
+    p, ul { margin: 0.75rem 0; }
+    ul { padding-left: 1.5rem; }
+    a { color: #4fc3f7; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .back { display: inline-block; margin-bottom: 1.5rem; padding: 0.5rem 1rem; background: rgba(79,195,247,0.2); border-radius: 8px; }
+    .card { background: rgba(255,255,255,0.06); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(255,255,255,0.08); margin: 1rem 0; }
+    .nav-lecciones { margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid rgba(255,255,255,0.1); display: flex; gap: 1rem; flex-wrap: wrap; align-items: center; }
+    .nav-lecciones .nav-prev { margin-right: auto; }
+    .nav-lecciones .nav-next { margin-left: auto; }
+    .nav-lecciones a { padding: 0.5rem 1rem; background: rgba(79,195,247,0.2); border-radius: 8px; }
+    .meta { margin-top: 2rem; padding: 1rem; background: rgba(0,0,0,0.2); border-radius: 8px; font-size: 0.9rem; }
+    .index ul { list-style: none; padding-left: 0; }
+    .index ul li { padding: 0.35rem 0; border-bottom: 1px solid rgba(255,255,255,0.08); }
+
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="back" href="../../index.html">&larr; Volver a la página principal</a>
+    <p class="sub">Módulo 5: Proyectos reales</p>
+    <div class="card">
+      <h1>Despliegue</h1><h2>Objetivos</h2><ul><li>Comprender los conceptos básicos de despliegue de aplicaciones.</li><li>Identificar las herramientas y estrategias más comunes para el despliegue de proyectos.</li><h2>Contenido</h2><p>El despliegue es un proceso crucial en la vida del desarrollo de software, que implica la implementación de una aplicación o sistema ya desarrollado en un entorno de producción. Este proceso asegura que la aplicación funcione correctamente y esté disponible para los usuarios finales. En el despliegue se consideran aspectos como la configuración del servidor, la gestión de bases de datos, la optimización del rendimiento y la seguridad.</p><p>El despliegue puede realizarse en diferentes entornos, desde un servidor local hasta plataformas en la nube como AWS, Azure o Google Cloud. Las herramientas utilizadas para el despliegue incluyen CI/CD pipelines (Continuous Integration/Continuous Deployment), Docker y Kubernetes, que facilitan la automatización del proceso y aseguran consistencia entre los entornos de desarrollo, prueba y producción.</p><h2>Ejercicio</h2><p>Realiza un despliegue básico de una aplicación web en un servidor local utilizando un sistema de gestión de versiones como Git. Documenta cada paso desde la configuración inicial hasta el despliegue final, identificando posibles problemas y soluciones encontradas.</p><h2>Resumen</h2><li>El despliegue es fundamental para asegurar que una aplicación funcione correctamente en producción.</li><li>Se utilizan herramientas como CI/CD, Docker y Kubernetes para automatizar y optimizar este proceso.</li></ul>
+      <div class="nav-lecciones"><a class="back" href="../../index.html">&larr; Volver al curso</a><a class="nav-prev" href="leccion_03_pruebas_y_validacion.html">&larr; Lección anterior</a><a class="nav-next" href="leccion_05_mantenimiento.html">Siguiente lección &rarr;</a></div>
+    </div>
+  </div>
+</body>
+</html>
